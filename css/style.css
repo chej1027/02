@@ -107,6 +107,7 @@
     background-color: #F6F3F0;
     width: 100%;
     height: 950px;
+    padding: 20px;
     } 
   .imgbox img {
     transition: transform 0.3s ease; 
