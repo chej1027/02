@@ -110,7 +110,7 @@
     padding: 20px;
     } 
   .imgbox img {
-       margin-top: 50px;
+       margin-top: 60px;
     transition: transform 0.3s ease; 
     }
   .imgbox img:hover {
