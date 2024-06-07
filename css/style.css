@@ -106,11 +106,11 @@
     flex-wrap: wrap;
     background-color: #F6F3F0;
     width: 100%;
-    height: 950px;
+    height: 850px;
     padding: 20px;
     } 
   .imgbox img {
-       margin-top: 20px;
+       margin-top: 50px;
     transition: transform 0.3s ease; 
     }
   .imgbox img:hover {
