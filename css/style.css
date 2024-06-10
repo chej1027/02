@@ -109,7 +109,7 @@
     height: 850px;
     } 
   .imgbox img {
-       margin-top: 60px;
+       margin-top: 70px;
     transition: transform 0.3s ease; 
     }
   .imgbox img:hover {
