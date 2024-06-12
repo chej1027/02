@@ -1,5 +1,10 @@
      .body {
-            margin: 0;
+             font-family: "Pretendard Variable", Pretendard, sans-serif;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+
         }
         #wrap {
             width: 1270px;
