@@ -98,28 +98,29 @@
             padding: 50px 0 0 0;
         }
 
-  .imgbox {
-    margin-top: 70px;
+.imgbox {
     text-align: center;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #F6F3F0;
+    padding: 120px 0;
     width: 100%;
-    height: 850px;
-    } 
+    height: 100%;
+
+  }
+
   .imgbox img {
-       margin-top: 70px;
     transition: transform 0.3s ease; 
     }
   .imgbox img:hover {
-    transform: scale(1.2);
+    transform: scale(1.2); 
     }
-  #box1, #box2{
+  .box1, .box2{
     width: 25%;
     height: 25%;
-    }
-  #box1 {
+     }
+  .box1 {
     padding-bottom: 100px;
   }
   .img1, .img5 {
@@ -148,29 +149,34 @@
     height: 260px;
    padding-left: 10px;
   }
+  .img8{
+    width: 230px;
+    height: 140px;
+    padding-top: 50px;
+    padding-right: 10px;
+  }
   .text {
-    margin-top: 35px;
+    margin-top: 50px;
     line-height:24px;
   }
   .container {
-            display: flex; 
-            justify-content: space-between; 
-            gap: 20px; 
-            flex-wrap: wrap; 
-            margin-top: 100px;
-       margin-bottom: 50px;
+            display: flex; /* Flexbox 활성화 */
+            justify-content: space-between; /* 각 항목 사이에 간격을 동일하게 분배 */
+            gap: 20px; /* 항목들 사이의 간격 */
+            flex-wrap: wrap; /* 화면 크기가 작을 때 자동으로 다음 줄로 감싸기 */
+            margin-top: 30px;
         }
         .container > div {
-            flex: 1; 
-            min-width: 200px;
+            flex: 1; /* 각 단락이 동일한 너비를 가지도록 설정 */
+            min-width: 200px; /* 최소 너비 설정으로 너무 좁아지는 것 방지 */
         }
         .container p {
-            width: 100%; 
-            text-align: center; 
+            width: 100%; /* 줄을 맞추기 위해 100% 너비 설정 */
+            text-align: center; /* 텍스트를 가운데 정렬 */
         }
         .container h2 {
-            width: 100%; 
-            text-align: center; 
+            width: 100%; /* 줄을 맞추기 위해 100% 너비 설정 */
+            text-align: center; /* 텍스트를 가운데 정렬 */
             font-size: 24px;
         }
   .line-height-pixels {
@@ -178,8 +184,9 @@
   }
   #text1, #text2, #text3 {
     font-size: 16px;
-    margin-top: 50px;
+    margin-top: 35px;
     }
+
  #footer {
             width: 100%;
             height: 100px;
