@@ -1,4 +1,4 @@
-     .body {
+  .body {
              font-family: "Pretendard Variable", Pretendard, sans-serif;
   background-color: #ffffff;
   margin: 0 auto;
@@ -8,7 +8,7 @@
         }
         #wrap {
             width: 1270px;
-            height: 2050px;
+            height: 100%;
             margin: 0 auto;
             font-family: Pretendard;
         }
@@ -100,7 +100,7 @@
         }
         h1 {
             font-size: 24px;
-            padding: 50px 0 0 0;
+           margin: 50px 0 0 0;
         }
 
   .imgbox {
@@ -112,8 +112,7 @@
     padding: 120px 0;
     width: 100%;
     height: 100%;
-
-  }
+    }
 
 
   .imgbox img {
@@ -125,8 +124,7 @@
   .box1, .box2{
     width: 25%;
     height: 25%;
-     }
-
+}
   .box1 {
     padding-bottom: 100px;
   }
@@ -167,23 +165,23 @@
     line-height:24px;
   }
   .container {
-            display: flex; /* Flexbox 활성화 */
-            justify-content: space-between; /* 각 항목 사이에 간격을 동일하게 분배 */
-            gap: 20px; /* 항목들 사이의 간격 */
-            flex-wrap: wrap; /* 화면 크기가 작을 때 자동으로 다음 줄로 감싸기 */
+            display: flex; 
+            justify-content: space-between;
+            gap: 20px; 
+            flex-wrap: wrap; 
             margin-top: 30px;
         }
         .container > div {
-            flex: 1; /* 각 단락이 동일한 너비를 가지도록 설정 */
-            min-width: 200px; /* 최소 너비 설정으로 너무 좁아지는 것 방지 */
+            flex: 1; 
+            min-width: 200px; 
         }
         .container p {
-            width: 100%; /* 줄을 맞추기 위해 100% 너비 설정 */
-            text-align: center; /* 텍스트를 가운데 정렬 */
+            width: 100%; 
+            text-align: center; 
         }
         .container h2 {
-            width: 100%; /* 줄을 맞추기 위해 100% 너비 설정 */
-            text-align: center; /* 텍스트를 가운데 정렬 */
+            width: 100%; 
+            text-align: center; 
             font-size: 24px;
         }
   .line-height-pixels {
